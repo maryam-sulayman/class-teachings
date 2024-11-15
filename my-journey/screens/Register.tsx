@@ -79,7 +79,7 @@ const RegisterScreen = () => {
         editable={!loading}
       />
       <TouchableOpacity 
-        style={[styles.button, loading && styles.buttonDisabled]} 
+        style={[styles.button]} 
         onPress={handleRegister}
         disabled={loading}
       >
